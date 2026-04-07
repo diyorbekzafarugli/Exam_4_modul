@@ -1,0 +1,21 @@
+
+1)	Heap 3 qism ga bo'linadi SOH, LOH hamda POH:
+bular har biri asosan fayllarning hajmiga qarab saqalanadigan joy,
+bir vaqtning o'zida SOH 3 qisimga bo'linadi, Gen 0, Gen 1, va Gen 2,
+Gen0 lar bularning hajmi eng kichigi 250 kb gacha, Gen1 lar 2,5 mb gacha hamda Gen2 
+85000 kb gacha bo'lgan objectlar saqlanishi uchun mo'ljallangan, Bunday bo'linishga
+asosiy sabab Garbage Collector ning ishlashini optimal qilish uchun.
+
+
+
+2) Stream lar;
+Stream lar ning vazifasi bizga tashqi fayllarga tuynuk ochish uchun mo'ljallangan.
+agar biz stremlar dan foydalanganda using key wordan foydalanamiz chunki, fayli ochgandan so'ng
+uni yopish kerak aks holda fayldagi ma'lumot ochiq qolib unga kirishga yoki o'zgartiriashga
+ruxsat bo'lmay qoladi, eng havflisi ma'lumot xavfsizligi buzuladi.
+
+
+3) Exstension method bu static class ga ochiladigan static method uni method(this ) key word
+yordamida elon qilinadi, bizga buning foydasi class dan obyekt olmasdan va classga murojat 
+qilmasdan ushbu method dan foydalanish imkonini beradi.
+

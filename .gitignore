@@ -1,0 +1,75 @@
+# =======================
+# Visual Studio / .NET
+# =======================
+
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+out/
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Visual Studio temporary files
+.vs/
+
+# Recycle bin, Thumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Rider IDE
+.idea/
+
+# DotCover
+*.dotCover
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+# The packages folder can be ignored because of PackageReference in csproj
+!packages/build/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# IIS Express
+.IISExpress/
+
+# Node / NPM (if using frontend in the project)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Rider, JetBrains
+.idea/
+
+# User-specific files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+*.orig
+**/Logs/
+appsettings.*.json
+.env 
